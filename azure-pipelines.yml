@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: ubuntu-latest #MS-hosted agent
+
 strategy:
   matrix:
     Python27:
